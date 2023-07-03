@@ -158,6 +158,7 @@ const ProjectTimeline = () => {
                 </UrlButton>
               </div>
             </div>
+                              </ImageEvent>
                     /////////////////////////////////////////////////new stuff
           <ImageEvent
             date="September, 2022"
