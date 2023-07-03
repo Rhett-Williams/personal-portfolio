@@ -56,6 +56,109 @@ const ProjectTimeline = () => {
       <Timeline theme={customTheme}>
         <Events>
           {/* //ChatKharaMeal */}
+              <ImageEvent
+            date="May, 2023"
+            className="text-center"
+            text="Personalised Presents Incorporated"
+            src={ChatKharaMeal}
+            alt="Personalised Presents Incorporated"
+          >
+            <div className="d-flex justify-content-between flex-column mt-1">
+              <div>
+                <Accordion>
+                  <Card>
+                    <Accordion.Toggle
+                      as={Card.Header}
+                      eventKey="0"
+                      className="p-2 text-center accordian-main"
+                    >
+                      PROJECT DETAILS
+                    </Accordion.Toggle>
+                    <Accordion.Collapse eventKey="0" className="text-left">
+                      <Card.Body>
+                        <strong>Description:</strong> This is a personal project which adds AI images to print on demand items
+                        <hr />
+                        <strong>Features:</strong>
+                        <ul className="list-styles pt-1">
+                          <li>Express Backend</li>
+                          <li>Gatsby Frontend</li>
+                          <li>OpenAI Integration</li>
+                          <li>Stripe Integration</li>
+                        </ul>
+                        <hr />
+                        <strong>Tech used:</strong>
+                        <ul>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React Native
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REACT}
+                                alt="React"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              React
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_CSS3}
+                                alt="CSS 3"
+                                rounded
+                                className="image-style m-1"
+                              ></Image>{" "}
+                              CSS3
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_TYPESCRIPT}
+                                alt="TypeScript"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              TypeScript
+                            </span>
+                          </li>
+                          <li>
+                            <span className="p-2">
+                              <Image
+                                src={L_REDUX}
+                                alt="Redux"
+                                rounded
+                                className="image-style1 m-1"
+                              ></Image>{" "}
+                              Redux
+                            </span>
+                          </li>
+                        </ul>
+                      </Card.Body>
+                    </Accordion.Collapse>
+                  </Card>
+                </Accordion>
+              </div>
+              <div className="d-flex justify-content-between flex-nowrap text-center">
+                <UrlButton
+                  href="https://personalisedpresentsinc.com"
+                  target="_blank"
+                >
+                  SEE LIVE
+                </UrlButton>
+              </div>
+            </div>
+                    /////////////////////////////////////////////////new stuff
           <ImageEvent
             date="September, 2022"
             className="text-center"
