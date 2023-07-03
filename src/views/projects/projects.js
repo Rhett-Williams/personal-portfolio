@@ -96,17 +96,6 @@ const ProjectTimeline = () => {
                                 rounded
                                 className="image-style m-1"
                               ></Image>{" "}
-                              React Native
-                            </span>
-                          </li>
-                          <li>
-                            <span className="p-2">
-                              <Image
-                                src={L_REACT}
-                                alt="React"
-                                rounded
-                                className="image-style m-1"
-                              ></Image>{" "}
                               React
                             </span>
                           </li>
