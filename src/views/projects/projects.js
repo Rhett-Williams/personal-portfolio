@@ -16,7 +16,7 @@ import "./project.css";
 
 //Projects
 
-import Ppidemol from "../../assets/img/projects/ppidemo.png";
+import Ppidemol from "../../assets/img/projects/ppidemo.PNG";
 import ChatKharaMeal from "../../assets/img/projects/ChatKharaMeal-Website.png";
 import ExpenseTracker from "../../assets/img/projects/Expense-TrackerApp.png";
 import MusicList from "../../assets/img/projects/Music-List-App.png";
