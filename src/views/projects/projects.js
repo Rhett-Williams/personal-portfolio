@@ -15,6 +15,8 @@ import Image from "react-bootstrap/Image";
 import "./project.css";
 
 //Projects
+
+import Ppidemol from "../../assets/img/projects/ppidemo.png";
 import ChatKharaMeal from "../../assets/img/projects/ChatKharaMeal-Website.png";
 import ExpenseTracker from "../../assets/img/projects/Expense-TrackerApp.png";
 import MusicList from "../../assets/img/projects/Music-List-App.png";
@@ -60,7 +62,7 @@ const ProjectTimeline = () => {
             date="May, 2023"
             className="text-center"
             text="Personalised Presents Incorporated"
-            src={ChatKharaMeal}
+            src={Ppidemol}
             alt="Personalised Presents Incorporated"
           >
             <div className="d-flex justify-content-between flex-column mt-1">
