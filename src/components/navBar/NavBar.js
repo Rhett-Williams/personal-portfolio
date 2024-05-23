@@ -13,7 +13,7 @@ import "./NavBar.css";
              variant="dark">
                 <Navbar.Brand href="#home">
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-                <img className="logo" src={Logo} alt='Logo'/>
+                <img style={{maxHeight: 250}} className="logo" src={Logo} alt='Logo'/>
                 </Navbar.Brand>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
