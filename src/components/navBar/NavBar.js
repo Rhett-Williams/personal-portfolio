@@ -12,9 +12,9 @@ import "./NavBar.css";
              className="animate-navbar nav-theme justify-content-between"
              variant="dark">
                 <Navbar.Brand href="#home">
-                    <img style={{height: 200, width: 300}} className="logo" src={Logo} alt='Logo'/>
-                </Navbar.Brand>
                 <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+                <img className="logo" src={Logo} alt='Logo'/>
+                </Navbar.Brand>
                 <Navbar.Collapse id="responsive-navbar-nav">
                     <Nav className="ml-auto">
                         <Nav.Link href="#home">Home</Nav.Link>
